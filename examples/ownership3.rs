@@ -5,5 +5,5 @@ fn main() {
 }
 
 fn change(some_string: &String) {
-    some_string.push_str(", world");
+    some_string.push_str(", world"); // BAD! We have an immutable reference to some_string
 }

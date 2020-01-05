@@ -1,3 +1,5 @@
+fn main() {}
+
 fn example1() {
     let mut s = String::from("hello");
 
